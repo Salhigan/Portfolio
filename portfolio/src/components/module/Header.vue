@@ -3,12 +3,11 @@
         <nav>
             <a href="#"><img src="../../../public/img/Small-logo.png" alt="Small-logo"></a>
             <div>
-                <a href="#profil">Profil</a>
                 <a href="#logo">Logo</a>
-                <a href="#musique">Musique</a>
-                <a href="#pixel">Pixel Art</a>
+                <a href="#profil">Profil</a>
+                <a href="#music">Musique</a>
+                <a href="#footer">Contact</a>
             </div>
-            
         </nav>
     </div>
 </template>
@@ -32,14 +31,14 @@ nav {
 }
 nav div a {
     padding: 2rem;
-    border-top: 3px solid #ea883200;
-    border-bottom: 3px solid #ea883200;
+    border-top: 4px solid #ea883200;
+    border-bottom: 4px solid #ea883200;
     transition: all 0.5s;
     
 }
 nav div a:hover {
-    border-top: 3px solid #ea8832;
-    border-bottom: 3px solid #ea8832;
+    border-top: 4px solid #ea8832;
+    border-bottom: 4px solid #ea8832;
 }
 nav a {
     text-decoration: none;

@@ -1,10 +1,13 @@
 <template>
   <div id="app">
     <Header />
-    <Logo />
-    <Profil />
-    <Music />
-    <PixelArt />
+    <main>
+      <HautPage />
+      <Logo />
+      <Profil />
+      <Music />
+      <PixelArt />
+    </main>
     <Footer />
   </div>  
 </template>
@@ -15,13 +18,14 @@ import Music from './components/module/Music.vue'
 import Logo from './components/module/Logo.vue'
 import PixelArt from './components/module/PixelArt.vue'
 import Profil from './components/module/Profil.vue'
+import HautPage from './components/module/HautPage.vue'
 import Footer from './components/module/Footer.vue'
 
 
 export default {
   name: 'App',
   components: {
-    Header, Profil, Logo, Music, PixelArt, Footer
+    Header, Profil, Logo, Music, PixelArt, HautPage, Footer
   }
 }
 </script>

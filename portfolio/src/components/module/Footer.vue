@@ -1,6 +1,5 @@
 <template>
     <div id="footer">
-        <h2>Contact</h2>
         <nav>
             <a href="#">Loïc Huvelin</a>
             <a href="mailto:loic.huv@gmail.com">Mail</a>
